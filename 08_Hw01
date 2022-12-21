@@ -1,0 +1,26 @@
+
+class Caaa
+{
+	int a;
+	int b;
+	int c()
+	{
+		return a*b;
+	}
+}
+
+public class HW01 {
+	public static void main(String args[])
+	   {
+	Caaa obj ;
+	obj = new Caaa();
+	
+	obj.a = 5;
+	obj.b = 3;
+	
+	System.out.println("a = "+ obj.a);
+	System.out.println("b = "+ obj.b);
+	System.out.println("c = "+ obj.c());
+
+	   }
+}
