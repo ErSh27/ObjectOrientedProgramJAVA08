@@ -1,0 +1,32 @@
+class CCircle
+{
+	int a;
+	int b;
+	int c;
+
+	void area(double r)
+	{
+		System.out.println("area = "+(r * r * 3.14));
+	}
+	void area(float r)
+	{
+		System.out.println("area = "+(r * r * 3.14));
+	}
+	void area(int r)
+	{
+		System.out.println("area = "+((double)r * (double)r * 3.14));
+	}
+}
+
+public class HW13 {
+
+	public static void main(String[] args) {
+		CCircle cir = new CCircle();
+		cir.area(2);
+		cir.area(2.2f);
+		cir.area(2.2);
+
+
+	}
+
+}
