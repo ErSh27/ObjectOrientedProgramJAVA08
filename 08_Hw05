@@ -1,0 +1,42 @@
+class cBox
+{
+	int length;
+	int width;
+	int height;
+	  void volume()
+	  {
+	     System.out.println("volume = "+length*width*height);
+	  }
+	  void surfaceArea()
+	  {
+	     System.out.println("surfaceArea = "+length*width);
+	  }
+	  void showData() 
+	  {
+	     System.out.println("length = "+length);
+	     System.out.println("width = "+width);
+	     System.out.println("height = "+height);
+	  }
+	  void showAll()
+	  {
+		  showData();
+		  volume();
+		  surfaceArea(); 
+	  }
+
+}
+
+public class auto04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		cBox Box ;
+		Box = new cBox();
+		Box.length = 1;
+		Box.width = 1;
+		Box.height = 1;
+		Box.showAll();
+
+	}
+
+}
