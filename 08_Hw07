@@ -1,0 +1,105 @@
+class CTest
+{
+	int number;
+	void inumber(int r)   
+	   {
+	      number = r;   
+	   }
+	void test() 
+	{
+		if(number == 0) {
+			System.out.println(此數為0);
+		}
+		else {
+			if (number % 2 == 0){
+				System.out.println(此數為偶數);
+			}
+			if (number % 2 != 0){
+				System.out.println(此數為奇數);
+			}
+		}
+	}
+}
+
+public class HW07 {
+
+	public static void main(String[] args) {
+		CTest Test;
+		Test = new CTest();
+		Test.inumber(3);
+		Test.test();
+	}
+
+}
+/*******************************************************************************/
+
+
+class CTest
+{
+	int number;
+	void inumber(int r)   
+	   {
+	      number = r;   
+	   }
+	void test() 
+	{
+		if(number == 0) {
+			System.out.println(此數為0);
+		}
+		else {
+			if (number % 2 == 0){
+				System.out.println(此數為偶數);
+			}
+			if (number % 2 != 0){
+				System.out.println(此數為奇數);
+			}
+		}
+	}
+}
+
+public class HW07 {
+
+	public static void main(String[] args) {
+		CTest Test;
+		Test = new CTest();
+		Test.inumber(8);
+		Test.test();
+	}
+
+}
+/*******************************************************************************/
+
+
+class CTest
+{
+	int number;
+	void inumber(int r)   
+	   {
+	      number = r;   
+	   }
+	void test() 
+	{
+		if(number == 0) {
+			System.out.println(此數為0);
+		}
+		else {
+			if (number % 2 == 0){
+				System.out.println(此數為偶數);
+			}
+			if (number % 2 != 0){
+				System.out.println(此數為奇數);
+			}
+		}
+	}
+}
+
+public class HW07 {
+
+	public static void main(String[] args) {
+		CTest Test;
+		Test = new CTest();
+		Test.inumber(0);
+		Test.test();
+	}
+
+}
