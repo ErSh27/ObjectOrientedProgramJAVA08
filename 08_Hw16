@@ -1,0 +1,51 @@
+class CSphere
+{
+	private int x;
+	private int y;
+	private int z;
+	private int radius;
+	double surface;
+	double volume;
+	void set_Location()
+	{
+		x = 3;
+		y = 4;
+		z = 5;
+	}
+	void set_Radius()
+	{
+		radius = 1;
+		System.out.println(radius);
+	}
+	void surface_Area()
+	{
+		surface =  4 * 3.14 * radius * radius ;
+		System.out.println(surface);
+	}
+	void volume() 
+	{
+		volume = 4 * (radius * radius * radius * 3.14) / 3;
+		System.out.println(volume);
+	}
+	void show_Center(int x,int y, int z)
+	{
+		System.out.println("( "+x+", "+y+", "+z+")");
+	}
+	void show_All()
+	{
+		set_Radius();
+		surface_Area();
+		volume();
+	}
+}
+
+public class HW16 {
+
+	public static void main(String[] args) {
+		CSphere phere = new CSphere();
+		phere.show_All();
+		phere.show_Center(3,4,5);
+
+	}
+
+}
