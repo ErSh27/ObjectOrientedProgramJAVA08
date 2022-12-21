@@ -1,0 +1,51 @@
+class CCalculator 
+{
+	int a;
+	int b;
+	int c;
+	void set_value(int x,int y,int z)
+	{
+            a = x;
+	    b = y;
+	    c = z;
+	}
+	void add() 
+	{
+		System.out.println("add = "+(a + b + c));
+	}
+	void sub() 
+	{
+		System.out.println("a = "+a);
+		System.out.println("b = "+b);
+		System.out.println("c = "+c);
+	}
+	void mul() 
+	{
+		System.out.println("mul = "+a * b * c);
+	}
+	void avg() 
+	{
+		System.out.println("mul = "+(((double)a + (double)b + (double)c) / 3));
+	}
+	void show() 
+	{
+		sub();
+		add();
+		mul();
+		avg();
+		
+	}
+}
+
+public class HW09 {
+
+	public static void main(String[] args) {
+		CCalculator obj;
+		obj = new CCalculator();
+		obj.a = 25;
+		obj.b = 7;
+		obj.c = 3;
+		obj.show();
+	}
+
+}
