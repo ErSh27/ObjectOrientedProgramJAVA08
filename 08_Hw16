@@ -6,11 +6,11 @@ class CSphere
 	private int radius;
 	double surface;
 	double volume;
-	void set_Location()
+	void set_Location(int a,int b, int c)
 	{
-		x = 3;
-		y = 4;
-		z = 5;
+		a = x;
+		b = y;
+		c = z;
 	}
 	void set_Radius()
 	{
