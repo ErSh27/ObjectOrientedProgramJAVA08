@@ -9,7 +9,7 @@ class CCircle
 	}
 }
 
-public class HW06 {
+public class HW08_06 {
 	public static void main(String[] args) {
 		CCircle cir1;
 		cir1 = new CCircle();
