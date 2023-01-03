@@ -18,7 +18,7 @@ class CCircle
 	}
 }
 
-public class HW13 {
+public class HW08_13 {
 
 	public static void main(String[] args) {
 		CCircle cir = new CCircle();
