@@ -4,7 +4,7 @@ class Cbbb
 	double y;
 }
 
-public class HW02 {
+public class HW08_02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
