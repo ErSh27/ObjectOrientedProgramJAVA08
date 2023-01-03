@@ -37,7 +37,7 @@ class CCalculator
 	}
 }
 
-public class HW09 {
+public class HW08_09 {
 
 	public static void main(String[] args) {
 		CCalculator obj;
