@@ -28,7 +28,7 @@ class CWin
 		System.out.println("W = "+width+", H = "+height );
 	}
 }
-public class HW12 {
+public class HW08_12 {
 
 	public static void main(String[] args) {
 		CWin cw = new CWin();
