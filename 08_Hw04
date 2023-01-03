@@ -5,7 +5,7 @@ class CBox
 	int height;
 }
 
-public class HW04 {
+public class HW08_04 {
 
 	public static void main(String[] args) {
 		
